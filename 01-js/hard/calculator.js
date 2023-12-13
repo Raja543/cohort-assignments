@@ -56,7 +56,6 @@ class Calculator {
       throw new Error("Invalid Expression");
     }
 
-    // Check for Infinity after evaluation
     if (this.result === Infinity) {
       throw new Error("Cannot divide by zero");
     }
